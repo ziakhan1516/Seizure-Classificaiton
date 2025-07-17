@@ -8,12 +8,12 @@ This repository implements a complete pipeline for EEG-based workload (binary) c
 The dataset used in this project requires approval before access. It is from the **Temple University Hospital EEG Corpus (TUH EEG)**.  
 You need to apply for access here: [http://isip.piconepress.com/projects/tuh_eeg/](http://isip.piconepress.com/projects/tuh_eeg/)
 
-First, install the dependencies:
+## First, install the dependencies:
 
 ```bash
 pip install -r requirements.txtt
 ```
-To run the code
+## To run the code
 ```bash
 python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/labels.npy" --save_dir "results" --model_path "results/final_model.h5" --epochs 15 --batch_size 16
 ```
