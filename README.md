@@ -37,6 +37,7 @@ cd your-repo-name
 
 ```bash
 ## Citation
+
 If you use this work, please cite:
 
 ```bibtex
@@ -51,4 +52,5 @@ If you use this work, please cite:
   keywords={Electroencephalography;Epilepsy;Accuracy;Brain modeling;Feature extraction;Convolutional neural networks;Three-dimensional displays;Time-frequency analysis;Monitoring;Deep learning;EEG signal processing;3D Convolutional Neural Network (3D-CNN);Biomedical signal analysis;Seizure detection;Self-attention mechanism;Short-Time Fourier Transform},
   doi={10.1109/ACCESS.2025.3574646}
 }
+
 
