@@ -12,7 +12,7 @@ To run the code
 ```bash
 pip install -r requirements.txt && python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/labels.npy" --save_dir "results" --model_path "results/final_model.h5" --epochs 15 --batch_size 16
 ```
-
+# The Details are given below:
 
 |   Argument        | Default | Description               |
 | ----------------- | ------- | ------------------------- |
