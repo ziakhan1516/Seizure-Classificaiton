@@ -4,7 +4,7 @@
 First you have to install the dependensies
 pip install -r requirements.txt
 For running the code 
-python eeg_pipeline.py \
+# python eeg_pipeline.py \
   --data_path "data/data_array.npy" \
   --labels_path "data/labels.npy" \
   --save_dir "results" \
