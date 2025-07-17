@@ -31,5 +31,20 @@ python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/lab
 | `--num_classes`   | `2`     | Number of output classes  |
 
 
+## Citation
 
+If you use this work, please cite:
+
+```bibtex
+@ARTICLE{11017574,
+  author={Khan, Ziaullah and Dayal, Aakanksha and Kim, Hee-Cheol},
+  journal={IEEE Access}, 
+  title={An Attention-Enhanced 3D-CNN Framework for Spectrogram-Based EEG Analysis in Epilepsy Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Electroencephalography;Epilepsy;Accuracy;Brain modeling;Feature extraction;Convolutional neural networks;Three-dimensional displays;Time-frequency analysis;Monitoring;Deep learning;EEG signal processing;3D Convolutional Neural Network (3D-CNN);Biomedical signal analysis;Seizure detection;Self-attention mechanism;Short-Time Fourier Transform},
+  doi={10.1109/ACCESS.2025.3574646}
+}
 
