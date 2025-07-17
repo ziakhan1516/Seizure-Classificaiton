@@ -10,15 +10,11 @@ This repository implements a complete pipeline for EEG-based workload (binary) c
  ┣ 📄 README.md               # This file
 
 First you have to install the dependensies
-pip install -r requirements.txt
-For running the code 
-python eeg_pipeline.py \
-  --data_path "data/data_array.npy" \
-  --labels_path "data/labels.npy" \
-  --save_dir "results" \
-  --model_path "results/final_model.h5" \
-  --epochs 15 \
-  --batch_size 16
+#pip install -r requirements.txt
+To run the code
+#pip install -r requirements.txt && python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/labels.npy" --save_dir "results" --model_path "results/final_model.h5" --epochs 15 --batch_size 16
+
+
 |   Argument        | Default | Description               |
 | ----------------- | ------- | ------------------------- |
 | `--window_size`   | `256`   | STFT window size          |
@@ -28,17 +24,6 @@ python eeg_pipeline.py \
 | `--test_size`     | `0.2`   | Test split ratio          |
 | `--num_classes`   | `2`     | Number of output classes  |
 
-#Citation
-@ARTICLE{11017574,
-  author={Khan, Ziaullah and Dayal, Aakanksha and Kim, Hee-Cheol},
-  journal={IEEE Access},
-  title={An Attention-Enhanced 3D-CNN Framework for Spectrogram-Based EEG Analysis in Epilepsy Detection},
-  year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Electroencephalography;Epilepsy;Accuracy;Brain modeling;Feature extraction;Convolutional neural networks;Three-dimensional displays;Time-frequency analysis;Monitoring;Deep learning;EEG signal processing;3D Convolutional Neural Network (3D-CNN);Biomedical signal analysis;Seizure detection;Self-attention mechanism;Short-Time Fourier Transform},
-  doi={10.1109/ACCESS.2025.3574646}
-}
+
 
 
