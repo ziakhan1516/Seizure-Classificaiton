@@ -30,6 +30,9 @@ python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/lab
 | `--test_size`     | `0.2`   | Test split ratio          |
 | `--num_classes`   | `2`     | Number of output classes  |
 
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
 ## Citation
 
