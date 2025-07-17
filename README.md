@@ -33,9 +33,10 @@ python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/lab
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
+```bash
 ## Citation
-
 If you use this work, please cite:
 
 ```bibtex
