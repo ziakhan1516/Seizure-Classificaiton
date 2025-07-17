@@ -6,7 +6,8 @@ This repository implements a complete pipeline for EEG-based workload (binary) c
 First you have to install the dependensies
 #pip install -r requirements.txt
 To run the code
-#pip install -r requirements.txt && python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/labels.npy" --save_dir "results" --model_path "results/final_model.h5" --epochs 15 --batch_size 16
+```bash
+pip install -r requirements.txt && python eeg_pipeline.py --data_path "data/data_array.npy" --labels_path "data/labels.npy" --save_dir "results" --model_path "results/final_model.h5" --epochs 15 --batch_size 16
 
 
 |   Argument        | Default | Description               |
