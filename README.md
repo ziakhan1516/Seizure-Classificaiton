@@ -8,8 +8,7 @@ This repository implements a complete pipeline for EEG-based workload (binary) c
 The dataset used in this project requires approval before access. It is from the **Temple University Hospital EEG Corpus (TUH EEG)**.  
 You need to apply for access here: [http://isip.piconepress.com/projects/tuh_eeg/](http://isip.piconepress.com/projects/tuh_eeg/)
 
-## For your help: A sample of the data and labels is attached to this repository. Another dataset is also included to test the model's generalization.
-
+Download the data, and use the data extraction and windowing script to perform preprocessing.
 
 ## First, install the dependencies:
 
